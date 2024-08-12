@@ -117,8 +117,8 @@ if __name__ == "__main__":
     target_address = "13zb1hQbWVsc2S7ZTZnP2G4undNNpdh5so"  # Hedef Bitcoin adresi
     
     # Hex stringleri integer'a çevir
-    start_hex = '0000000000000000000000000000000000000000000000030000000000000000'
-    end_hex = '000000000000000000000000000000000000000000000003ffffffffffffffff'
+    start_hex = '0000000000000000000000000000000000000000000000000000000000000000'
+    end_hex = '0000000000000000000000000000000000000000000000000000000000000000'
 
     # Paralel Diferansiyel Evrim
     results = parallel_differential_evolution(target_address, start_hex, end_hex, num_processes=4)
